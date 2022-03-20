@@ -1,7 +1,7 @@
 {
   "name": "planet",
   "version": "0.1.0",
-  "homepage": "https://ida-beep.github.io/portfolio",
+  "homepage": "https://ida-beep.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
