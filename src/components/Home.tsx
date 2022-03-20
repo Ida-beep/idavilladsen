@@ -18,9 +18,9 @@ function Home() {
   const [showProjects, setShowProjects] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const [showPlanets, setShowPlanets] = useState(true);
-  const title = "Lorem Ipsum";
+  const title = "Ida Villadsen";
   const text =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Combining 2D & 3D design with IT. With a background in arhictecture I have a keen interest in people, and how programs can help us in various domains. Have a look around ";
 
   function handlePlanetClick(name: string) {
     console.log("move to next page : ", name);
@@ -37,7 +37,7 @@ function Home() {
     to: { opacity: 1 },
     from: { opacity: 0 },
     delay: 4000,
-    duration: 10000,
+    config: { mass: 6, tension: 400, friction: 1000 },
     reset: true,
   });
 
@@ -77,9 +77,8 @@ function Home() {
       </div>
       {showPlanets ? (
         <>
-          <Header title={title} text={text} mLeft={40} mTop={"10%"} />
+          <Header title={title} text={text} mLeft={40} mTop={"10%"} maxWidth={"250px"}/>
           <Hover planetClick={(n: string) => handlePlanetClick(n)} />
-          {/* <BurgerMenu/> */}
           <animated.div style={fadeIn}>
             <Unity
               unityContext={startPage}

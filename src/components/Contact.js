@@ -1,31 +1,34 @@
 import React from "react";
-import PlanetButton from "./PlanetButton";
 
 function Contact(props) {
   const title = {
-    color: "white",
+    //color: "white",
     display: "flex",
     justifyContent: "center",
     margin: "50px",
+    color: "rgb(196, 196, 196)",
   };
   const page = {
     height: "100%",
+    color: "white",
     width: "100%",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
   };
-  /*   function handleClick(e) {
-    console.log("click!!  :", e);
-    props.setShowContact(props.showPlanets);
-    //props.setShowContact(props.showContact);
-  } */
+  const listStyle = {
+    listStyle: "none",
+    marginRight: "30px",
+  };
 
   return (
     <>
       <div style={page}>
-        <h3 style={title}>Contact</h3>
-        {/* <PlanetButton onClick={(e)=>handleClick(e)}name={"<<<"}/> */}
+        <h5 style={title}>Get in touch</h5>
+        {/* <h2>Get in touch</h2> */}
+        <ul style={listStyle}>
+          <li>Email {">"} idvi@itu.com</li>
+        </ul>
       </div>
     </>
   );
