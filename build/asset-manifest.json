@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1e621048.css",
-    "main.js": "/portfolio/static/js/main.f9adca60.js",
-    "static/js/787.f80d8f82.chunk.js": "/portfolio/static/js/787.f80d8f82.chunk.js",
+    "main.js": "/portfolio/static/js/main.5c378979.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Portfolio færdig _Page_05.jpg": "/portfolio/static/media/Portfolio færdig _Page_05.15f4a8a9a54788b05fef.jpg",
     "static/media/Portfolio færdig _Page_09.jpg": "/portfolio/static/media/Portfolio færdig _Page_09.6c3704bae87dce6c94c8.jpg",
     "static/media/Portfolio færdig _Page_:Users:idavilladsen:Desktop:portfolio:Portfolio færdig _Page_04.jpg04.jpg": "/portfolio/static/media/Portfolio færdig _Page_:Users:idavilladsen:Desktop:portfolio:Portfolio færdig _Page_04.jpg04.154a3b8d46d21af2d931.jpg",
@@ -13,11 +13,11 @@
     "static/media/D0AFC57D-6015-4BA7-BFDF-1FDCCBD76C0E_1_201_a.jpeg": "/portfolio/static/media/D0AFC57D-6015-4BA7-BFDF-1FDCCBD76C0E_1_201_a.31f9c69cf82a6995c951.jpeg",
     "index.html": "/portfolio/index.html",
     "main.1e621048.css.map": "/portfolio/static/css/main.1e621048.css.map",
-    "main.f9adca60.js.map": "/portfolio/static/js/main.f9adca60.js.map",
-    "787.f80d8f82.chunk.js.map": "/portfolio/static/js/787.f80d8f82.chunk.js.map"
+    "main.5c378979.js.map": "/portfolio/static/js/main.5c378979.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e621048.css",
-    "static/js/main.f9adca60.js"
+    "static/js/main.5c378979.js"
   ]
 }
