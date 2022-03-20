@@ -4,27 +4,26 @@ import { scaleDown as Menu } from "react-burger-menu";
 
 function BurgerMenu() {
   const burgerMenu = {
-    position: "absolute",
-    zIndex: "500",
-    width: "200px",
-    height: "200px",
+    //position: "absolute",
+    //zIndex: "500",
+    //width: "200px",
+    //height: "200px",
   };
 
   return (
     <>
       <Menu style={burgerMenu}>
-        {/* <h1>BURGER!</h1> */}
         <Link id="home" className="menu-item" to="/">
-          Home
+          home
         </Link>
         <Link id="about" className="menu-item" to="/about">
-          About
+          about me
         </Link>
         <Link id="projects" className="menu-item" to="/projects">
-          Projects
+          projects
         </Link>
         <Link id="contact" className="menu-item" to="/contact">
-          Contact
+          contact
         </Link>
       </Menu>
     </>

@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: black;
   font-family: "Roboto Mono", monospace;
+  cursor: pointer;
 }
 
 p {
@@ -17,12 +18,15 @@ a:visited {
 a:hover {
   color: #ffffff;
 }
+/* h5 {
+  font-family: "Poppins", sans-serif;
+} */
 
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
   width: 36px;
-  height: 30px;
+  height: 25px;
   left: 36px;
   top: 36px;
 }
@@ -65,7 +69,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: #000000;
   padding: 2.5em 2.5em 2.5em;
   font-size: 1.15em;
-  width: 19em;
+  width: 17em;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -88,4 +92,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(255, 255, 255, 0.3);
+}
+
+.changeColorHover {
+  cursor: pointer;
+  color: rgb(196, 196, 196);
+  margin-right: 16px;
+  font-size: 12px;
+  margin: 5px;
+}
+.changeColorHover:hover {
+  color: rgb(46, 255, 46);
+  transform: scale(1.1);
 }

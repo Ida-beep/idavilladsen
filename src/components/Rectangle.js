@@ -1,21 +1,29 @@
 import React, { useState } from "react";
 
 function Rectangle(props) {
-  const [size, setSize] = useState("200px");
+  //const [size, setSize] = useState("200px");
   const text = {
     color: "white",
     display: "flex",
     justifyContent: "center",
     alignContent: "center",
+    padding: props.padding,
   };
   const rect = {
-    width: size,
-    height: size,
-    border: "white solid 1px",
+    width: props.sizeW,
+    height: props.sizeH,
+    //border: "white solid 1px",
     margin: "20px",
     //maxWidth: size,
     //minWidth: "100px",
     //position:"relative",
+  };
+  const img = {
+    display: "flex",
+    justifyItems: "center",
+    alignItems: "center",
+    height: props.sizeH,
+    width: props.sizeW,
   };
   function handleHover() {
     //setSize("250px");
@@ -34,6 +42,8 @@ function Rectangle(props) {
         style={rect}
       >
         <p style={text}>{props.name}</p>
+        <img style={img} src={props.img} />
+        {props.content}
       </div>
     </>
   );

@@ -3,15 +3,19 @@ import { useSpring, animated } from "react-spring";
 
 function Header(props) {
   const moveRight = useSpring({
-    to: { marginLeft: props.mLeft },
-    from: { marginLeft: 500 },
+    /* to: { marginLeft: props.mLeft },
+    from: { marginLeft: 500 }, */
+    /* to: { marginLeft: 500 },
+    from: { marginLeft: 500 }, */
     delay: 1500,
     config: { mass: 2, tension: 400, friction: 200 },
+    display: "flex",
   });
   const appear = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
     config: { duration: 4000 },
+    display: "flex",
   });
 
   const appearSecond = useSpring({
@@ -19,31 +23,30 @@ function Header(props) {
     from: { opacity: 0 },
     delay: 2000,
     config: { mass: 2, tension: 400, friction: 200 },
+    display: "flex",
   });
 
   const headerContainer = {
+    marginLeft: window.innerWidth / 1.75,
     position: "absolute",
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
     zIndex: "100",
     width: "20%",
-    //marginLeft:props.mLeft,
-    marginTop: props.mTop,
+    marginTop: /* props.mTop, */ window.innerHeight / 3.5,
     border: "solid white 0.25px",
     fontFamily: "'Roboto Mono', monospace",
     color: "white",
     fontStyle: "italic",
     padding: "25px",
-    maxWidth: "250px",
+    maxWidth: props.maxWidth,
     minWidth: "200px",
+    backgroundColor: "rgb(0,0,0,0.1)",
   };
-  /*     const inFront = {
-        position:"absolute",
-        zIndex:"500",
-        widht:"100%",
-    } */
 
   const headerStyle = {
     display: "flex",
-    //padding:"20px",
     justifyContent: "center",
     alignItems: "center",
   };
