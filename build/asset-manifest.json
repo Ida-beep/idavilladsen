@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1e621048.css",
+    "main.js": "/portfolio/static/js/main.f9adca60.js",
+    "static/js/787.f80d8f82.chunk.js": "/portfolio/static/js/787.f80d8f82.chunk.js",
+    "static/media/Portfolio færdig _Page_05.jpg": "/portfolio/static/media/Portfolio færdig _Page_05.15f4a8a9a54788b05fef.jpg",
+    "static/media/Portfolio færdig _Page_09.jpg": "/portfolio/static/media/Portfolio færdig _Page_09.6c3704bae87dce6c94c8.jpg",
+    "static/media/Portfolio færdig _Page_:Users:idavilladsen:Desktop:portfolio:Portfolio færdig _Page_04.jpg04.jpg": "/portfolio/static/media/Portfolio færdig _Page_:Users:idavilladsen:Desktop:portfolio:Portfolio færdig _Page_04.jpg04.154a3b8d46d21af2d931.jpg",
+    "static/media/Portfolio færdig _Page_07.jpg": "/portfolio/static/media/Portfolio færdig _Page_07.81672a3bf3b20b273155.jpg",
+    "static/media/Portfolio færdig _Page_03.jpg": "/portfolio/static/media/Portfolio færdig _Page_03.530be380d9453f715e80.jpg",
+    "static/media/Portfolio færdig _Page_10.jpg": "/portfolio/static/media/Portfolio færdig _Page_10.e70f78cdeae21a51e4e4.jpg",
+    "static/media/Portfolio færdig _Page_06.jpg": "/portfolio/static/media/Portfolio færdig _Page_06.ff7e081b587b7e41758b.jpg",
+    "static/media/D0AFC57D-6015-4BA7-BFDF-1FDCCBD76C0E_1_201_a.jpeg": "/portfolio/static/media/D0AFC57D-6015-4BA7-BFDF-1FDCCBD76C0E_1_201_a.31f9c69cf82a6995c951.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.1e621048.css.map": "/portfolio/static/css/main.1e621048.css.map",
+    "main.f9adca60.js.map": "/portfolio/static/js/main.f9adca60.js.map",
+    "787.f80d8f82.chunk.js.map": "/portfolio/static/js/787.f80d8f82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e621048.css",
+    "static/js/main.f9adca60.js"
+  ]
+}
